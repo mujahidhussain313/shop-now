@@ -12,7 +12,7 @@ function App() {
 <Routes>
 <Route path='/shop-now' element={<ProductsListing />} />
 <Route path='/product/:productId' element={<ProductsDetail />} />
-<Route path='*' element={<h1 style={{marginTop: "20px"}}>Page Not Found</h1>} />
+<Route path='*' element={<h1 style={{marginTop: "50px"}}>Page Not Found</h1>} />
 </Routes>
     </div>
   );
