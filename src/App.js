@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <Header /> 
 <Routes>
-<Route path='/' element={<ProductsListing />} />
+<Route path='/shop-now' element={<ProductsListing />} />
 <Route path='/product/:productId' element={<ProductsDetail />} />
 <Route path='*' element={<h1 style={{marginTop: "20px"}}>Page Not Found</h1>} />
 </Routes>
